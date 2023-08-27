@@ -1,0 +1,55 @@
+@types used to find the types against third party libaries on npmjs
+Github link for defination of types of another libaries
+https://github.com/DefinitelyTyped/DefinitelyTyped
+Typescript Primitive and built in types
+1. number
+2. string
+3. Date
+4. any
+
+Custom types using interface
+interface Contact
+
+Syntax to create interface
+
+starte with interface followedby name and { 
+
+}
+inside the you need to define the properties in the form of 
+key values pairs
+
+interface Contact extends address{
+    name:string,
+    mobile:string,
+    email:string,
+    landLine?:number //Optional property 
+     
+}
+
+
+Type alias
+It's used to give different name to existing types or used to create custom types
+
+Syntax:
+It's start with type keyword followedby name = (symbol) and start and end curl braces
+inside that keyvalue pairs of properties
+
+enum :
+It's used to use hardcoded values into our code
+Syntax:
+statrt with enum keyword followedby name and opening and closing braces with comma seperator values like following:
+enum Category{
+    key=value,....
+}
+its used to avaoid typo|mistake in our code
+
+Functions types :
+types also applicable for functions as well.
+
+
+Generics is powerful tool in any programming language tool kit
+Its can be used with function
+interfaces
+classes
+types etc
+
