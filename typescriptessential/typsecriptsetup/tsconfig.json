@@ -1,0 +1,13 @@
+{
+    "include": ["src/**/*"],
+    "compilerOptions": {
+        "target": "ES6",
+        "outDir": "build",
+        "allowJs": true,
+        "checkJs": true
+
+        
+        
+    }
+}
+   
